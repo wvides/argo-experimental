@@ -15,5 +15,5 @@ spec:
     - group: "*"
       kind: "*"
   sourceRepos:
-    - "git@github.com:wvides/argo-experimental.git"
+    - "https://github.com/wvides/argo-experimental.git"
 status: {}

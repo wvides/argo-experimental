@@ -10,7 +10,7 @@ spec:
   project: infra
   source:
     path: environments/kind-local
-    repoURL: git@github.com:wvides/argo-experimental.git
+    repoURL: https://github.com/wvides/argo-experimental.git
     targetRevision: HEAD
     directory:
       recurse: false
