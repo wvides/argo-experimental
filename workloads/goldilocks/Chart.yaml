@@ -1,0 +1,10 @@
+apiVersion: v1
+appVersion: v4.14.1
+description: Goldilocks chart
+name: goldilocks
+version: 10.2.0
+icon: file://dev/null
+dependencies:
+  - name: goldilocks
+    version: 10.2.0
+    repository: https://charts.fairwinds.com/stable
