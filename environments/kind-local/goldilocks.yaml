@@ -7,14 +7,14 @@ spec:
   destination:
     namespace: goldilocks
     server: https://kubernetes.default.svc
-  project: platform
+  project: infra
   source:
     helm:
       valueFiles:
         - values-kind-local.yaml
         - values.yaml
     path: ./workloads/goldilocks
-    repoURL: git@github.com:wvides/argo-experimental.git
+    repoURL: https://github.com/wvides/argo-experimental.git
     targetRevision: HEAD
   syncPolicy:
     automated:
