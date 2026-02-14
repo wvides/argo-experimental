@@ -1,3 +1,11 @@
 goldilocks:
+  controller:
+    flags:
+      on-by-default: true
+  dashboard:
+    flags:
+      on-by-default: true
   vpa:
     enabled: true
+    updater:
+      enabled: false
