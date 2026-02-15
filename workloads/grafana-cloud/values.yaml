@@ -1,0 +1,13 @@
+grafana-cloud:
+  cluster:
+    name: kind-local
+  clusterMetrics:
+    enabled: true
+  clusterEvents:
+    enabled: true
+  alloy-metrics:
+    enabled: true
+  alloy-singleton:
+    enabled: true
+  podLogs:
+    enabled: true
