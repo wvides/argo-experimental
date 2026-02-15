@@ -1,4 +1,4 @@
-grafana-cloud:
+k8s-monitoring:
   cluster:
     name: kind-local
   clusterMetrics:
